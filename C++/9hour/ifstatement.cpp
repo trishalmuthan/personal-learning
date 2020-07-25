@@ -4,11 +4,18 @@ using namespace std;
 
 int main()
 {
-    int a = 95;
-    int b = 36;
-    if(a>=b)
+    int age = 105;
+    
+    if(age>=60)
     {
-        cout << "Cool" << endl;
+        if(age > 100)
+        {
+            cout << "Why are you still alive?" << endl;
+        }
+    }
+    else
+    {
+        cout << "Get a job" << endl;
     }
     return 0;
 }

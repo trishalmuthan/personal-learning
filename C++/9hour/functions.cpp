@@ -2,14 +2,15 @@
 
 using namespace std;
 
-void printSomething();
+int addNumbers(int, int, int, int);
 
 int main()
 {
-    printSomething();
+    int answer = addNumbers(20, 20, 20, 20);
+    cout << answer << endl;
 }
 
-void printSomething()
+int addNumbers(int x, int y, int z, int w)
 {
-    cout << "printed!" << endl;
+    return x+y+z+w;
 }
